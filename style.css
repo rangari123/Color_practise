@@ -1,0 +1,41 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  flex-direction: column;
+  font-style: normal;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  background-color: rgb(163, 218, 163);
+  height: 30%;
+  width: 25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box {
+  border: 2px solid;
+  margin: 0.5rem;
+  padding: 20px;
+  cursor: pointer;
+}
+
+#red {
+  background-color: rgb(230, 58, 58);
+}
+
+#blue {
+  background-color: rgb(78, 78, 216);
+}
+
+#green {
+  background-color: rgb(96, 222, 96);
+}
+
+#yellow {
+  background-color: rgb(228, 228, 74);
+}
